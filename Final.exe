@@ -6,7 +6,7 @@ int main()
   int x;
   int y;
   int somma;
-  string version="1.0.2";
+  string version="1.0.3";
   
   cout<< "Inserire numeri da sommare e premere INVIO"<<endl;
   cin>>x;
@@ -14,6 +14,7 @@ int main()
   somma=x+y;
   cout<<"Il tuo risultato è: "<<somma<<endl;
   cout<<"Il numero della versione e': "<<version<<endl;
+  cout<<"Programma realizzato da Marco Bernardi"<<endl;
   
   return 0;
 }
