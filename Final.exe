@@ -6,12 +6,14 @@ int main()
   int x;
   int y;
   int somma;
+  string version="1.0.2";
   
   cout<< "Inserire numeri da sommare e premere INVIO"<<endl;
   cin>>x;
   cin>>y;
   somma=x+y;
   cout<<"Il tuo risultato è: "<<somma<<endl;
+  cout<<"Il numero della versione e': "<<version<<endl;
   
   return 0;
 }
